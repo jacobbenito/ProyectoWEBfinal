@@ -1,0 +1,232 @@
+.main{
+    background: var(--secondary-color);
+}
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 0;
+}
+.hero__banner{
+    height: 50vh;
+    width: 100%;
+    background: url(./desarrollo4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: .5rem solid var(--text-color);
+}
+.hero__heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 0;
+    background: rgba(0, 0, 0, 0.8);;
+    width: 100%;
+    gap: 3rem;
+}
+
+.hero__title{
+    flex: 1;
+    color: var(--text-color);
+    font-size: 4rem;
+    text-align: center;
+
+}
+
+.hero__button{
+    padding: 2rem 1rem;
+    background: var(--primary-color);
+    border-radius: .5rem;
+    color: var(--secondary-color);
+}
+
+.hero__subheading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 0;
+    width: 100%;
+    gap: 1rem;
+    background: var(--secondary-color);
+}
+
+.hero__subtitle{
+    font-size: 3.8rem;
+    font-weight: 400;
+    color: var(--text-color);
+}
+
+.hero__subtitle__green{
+    color: var(--primary-color);
+}
+
+.hero__paragraph{
+    color: var(--text-color);
+    font-size: 1.8rem;
+}
+
+
+/* aplicaciones */
+.aplicaciones{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 9rem 0;
+    background: var(--primary-color);
+}
+
+.aplicaciones__hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4rem 0;
+    gap: 3rem;
+}
+.aplicaciones__tittle{
+    font-size: 5rem;
+    font-weight: 400;
+    color: var(--secondary-color);
+}
+
+.aplicaciones__pa{
+    font-size: 1.8rem;
+    color: var(--secondary-color);
+}
+
+.aplicaciones__button{
+    padding: 2rem 1rem;
+    background: var(--text-color);
+    border-radius: .5rem;
+    color: var(--secondary-color);
+    width: 20%;
+    text-align: center;
+}
+
+/* contact */
+
+.contactr{
+    display: flex;
+    padding: 7rem 4rem;
+    background: var(--primary-color);
+}
+
+.contactr__image{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    border-radius: 1rem;
+
+}
+
+.contactr__img{
+    width: 52rem;
+    height: 40rem;
+    border-radius: 1rem;
+    object-fit: cover;
+    border: .5rem solid var(--text-color);
+
+}
+.contactr__action{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 8rem;
+    gap: 8rem
+}
+
+.contactr__paragraph{
+    text-align: center; 
+    font-size: 1.8rem;
+    color: var(--secondary-color);
+}
+
+.contactr__button{
+    padding: 2rem 1rem;
+    background: var(--text-color);
+    border-radius: .5rem;
+    color: var(--secondary-color);
+    width: 20%;
+    text-align: center;
+}
+
+
+/* form */
+.form-containerr {
+    text-align: center;
+    border: 2px solid #d5e106;
+    padding: 6rem 2rem;
+    border-radius: 10px;
+}
+
+.titler {
+    font-size: 5rem;
+    margin-bottom: 1rem;
+    color: var(--primary-color);
+}
+
+.subtitler {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: var(--primary-color);
+}
+
+.subscription-formr {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    
+}
+
+.form-labelr {
+    margin: 10px 0 5px;
+    font-size: 2.5rem;
+    color: var(--text-color);
+
+}
+
+.form-inputr {
+    width: 100%;
+    padding: 1.8rem;
+    margin-bottom: 15px;
+    border: 2px solid #d5e106;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+}
+
+.button-containerr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    width: 100%;
+}
+
+.form-buttonr {
+    background-color: white;
+    color: black;
+    border: 2px solid #d5e106;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+
+.form-buttonr:hover {
+    background-color: #d5e106;
+}

@@ -1,0 +1,215 @@
+/* GLOBALES */          
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Poppins:wght@400;700;800;900&display=swap');
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+    font-family: var(--Poppins);
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    scroll-behavior: smooth;
+}
+body{
+    font-size: 1.6rem;
+    line-height: 1.6;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+/* PADDIN 2REM 7% */
+
+/* Colores VARIBLES CSS */
+
+:root{
+    /* Primary */
+    --Pink: hsl(322, 100%, 66%);
+    --Light-Pink: hsl(321, 100%, 78%);
+    --Light-Red: hsl(0, 100%, 63%);
+    /* neutral */
+    --Very-Dark-Cyan: hsl(192, 100%, 9%);
+    --Very-Pale-Blue: hsl(207, 100%, 98%);
+    /* fonts */
+    --Poppins: "Poppins", sans-serif;
+    --Lilita: "Lilita One", sans-serif;
+
+
+    /* colores de web */
+    --primary-color: #d7ff00; /* Color de fondo del encabezado y botones */
+    --secondary-color: #000000; /* Color del texto del encabezado y botones */
+    --background-color: #1a1b1d; /* Color de fondo principal */
+    --text-color: #ffffff; /* Color del texto principal */
+    --highlight-color: #d7ff00; /* Color para destacar el texto */
+    --card-background-color: #002b3a; /* Color de fondo para las tarjetas */
+    --footer-background-color: #14263b; /* Color de fondo del pie de página */
+    --button-background-color: #d7ff00; /* Color de fondo de los botones */
+    --button-text-color: #000000; /* Color del texto de los botones */
+}
+
+*::selection{
+    background: var(--Very-Pale-Blue);
+    color: var(--Pink);
+}
+
+.container{
+    width: 90vw;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.social__icons__container{
+    background: var(--primary-color);
+}
+.social__icons{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem 0
+}
+.nav__icons{
+    width: 2.3rem;
+    text-align: center;
+
+}
+
+/* list__container */
+
+.list__container{
+    background: var(--secondary-color);
+}
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4rem 0;
+}
+.nav__tittle{
+    color: var(--highlight-color);
+    font-size: var(--Lilita);
+    font-weight: 800;
+    font-size: 2rem;
+    letter-spacing: .2rem;
+}
+.nav__list{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:center;
+    gap: 6rem;
+    
+}
+.nav__link{
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: #d7ff00;
+    border-bottom: .2rem solid transparent;
+    transition: all 500ms;
+}
+
+.nav__link:hover{
+    border-bottom: .2rem solid var(--primary-color);
+}
+
+.nav__action{
+    color: var(--text-color);
+    font-weight: 600;
+    font-size: 1.8rem;
+    border: .2rem solid var(--highlight-color);
+    border-radius: 1rem;
+    padding: 1rem 2rem;
+    background: transparent;
+    transition: all 500ms;
+}
+
+.nav__action:hover{
+    background: var(--button-background-color);
+    color: var(--button-text-color);
+}
+
+/* footer */
+
+.foooter{
+    background: var(--footer-background-color);
+    padding: 3rem 0;
+}
+
+.footer__section{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 3rem;
+}
+.footer__socials{
+    display: flex;
+    flex-direction: column;
+    color: var(--text-color);
+
+}
+
+.footer__social__list{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: 3px solid gray;
+    
+}
+.footer__social{
+    width: 2rem;
+    margin: 2rem 0;
+    
+}
+.navegation_h2{
+    color: var(--text-color);
+}
+.footer__link{
+    color: var(--text-color);
+}
+
+.footer__heading{
+    font-size: 2rem;
+    color: var(--text-color);
+}
+
+.about__paragraph{
+    color: var(--text-color);
+}
+
+.contact__heading{
+    color: var(--text-color);
+}
+.contact__span{
+    color: var(--primary-color);
+}
+
+.contact__subheading{
+    color: var(--text-color);
+}
+.contact__action{
+    display: flex;
+}
+.input__footer{
+    padding: 1rem 0;
+    width: 50%;
+}
+.button__footer{
+    width: 50%;
+    padding: 1rem ;
+    background: var(--button-background-color);
+    color: var(--button-text-color);
+    font-weight: 500;
+}
+
+.burguer{
+    display: none;
+}
